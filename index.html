@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/styleSheet.css" />
+    <title>Currency</title>
+  </head>
+  <body>
+    <div class="container d-flex flex-column align-items-center">
+      <h1 class="text-light">Currency Conventer</h1>
+      <p class="text-light">Enter Amount</p>
+      <input type="text" value="1" class="amount mb-3" />
+      <div>
+        <div class="selectCountry d-flex">
+          <div class="holder">
+            <h3 class="text-light">From</h3>
+            <select class="selectBoxFrom"></select>
+          </div>
+          <div class="result text-light">0.00</div>
+          <div class="holder">
+            <h3 class="text-light">To</h3>
+            <select class="selectBoxTo"></select>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary mt-3">Exchange</button>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/java.js"></script>
+  </body>
+</html>
